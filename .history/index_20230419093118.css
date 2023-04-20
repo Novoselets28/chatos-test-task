@@ -1,0 +1,108 @@
+.page__extension {
+
+}
+
+.extension{
+    padding: 80px 0px 136px 0px;
+}
+
+.extension__container{
+    background-color: #edf0f5;
+}
+
+._container{
+    max-width: 1046px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.extension__header{
+    margin: 0 0 80px 0;
+}
+
+.header-block{
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.header-block__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 142%;
+    color: #363b3f;
+}
+
+.extension__items{
+    display: flex;
+    align-items: center;
+}
+
+.extension__item{
+    flex: 0 1 33.333%;
+}
+
+.item-extension{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.item-extension__title{
+    color: #373d42;
+}
+
+.item-extension__price{
+    color: #24466c;
+}
+
+.price-item{
+
+}
+
+.price-item__dollar{
+
+}
+
+.price-item__number{
+
+}
+
+.price-item__label{
+    color: #878d96;
+}
+
+.item-extension__points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-extension__point{
+    color: inherit;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+.point-list{
+
+}
+
+.point-list__item{
+
+}
+
+.point-list__icon{
+
+}
+
+.item-extension__button{
+
+}
+
+

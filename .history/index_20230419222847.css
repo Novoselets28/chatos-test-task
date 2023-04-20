@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.extension__container{
+    background-color: #edf0f5;
+}
+
+._container{
+    max-width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+.extension__header{
+    margin: 0 0 40px 0;
+    padding: 30px 0 0;
+}
+
+.header-block{
+    text-align: center;
+}
+
+.header-block__title{
+    font-size: 42px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    line-height: 142%;
+    color: #363b3f;
+}
+
+.extension__items{
+    display: flex;
+    align-items: flex-start;
+    font-family: inherit;
+    font-size: 24px;
+}
+
+.extension__item{
+    flex: 0 1 33.333%;
+}
+
+.item-extension{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.item-extension_active{
+    border: 2px solid #96d35f;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    padding: 50px 0;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.item-extension_active .item-extension__button{
+    background-color: #96d35f;
+}
+
+.ribbon {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    overflow: hidden;
+}
+
+.ribbon span {
+    position: absolute;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    top: 20px;
+    right: -18px;
+    transform: rotate(45deg);
+    width: 100px;
+    background: #eb0c0c;
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+
+.item-extension__title{
+    color: #373d42;
+    margin: 0 0 35px;
+}
+
+.item-extension__price{
+    color: #24466c;
+}
+
+.price-item{
+    margin: 0 0 25px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.price-item__dollar{
+    font-size: 16px;
+}
+
+.price-item__number{
+    text-transform: uppercase;
+    font-size: 84px;
+}
+
+.price-item__label{
+    color: #878d96;
+    font-size: 16px;
+}
+
+.item-extension__points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.item-extension__point{
+    color: inherit;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 10px;
+}
+
+.point-list{
+
+}
+
+.point-list__item .icon{
+    content: "f058";
+    font-family: "Font Awesome 6 Free";
+    font-size: 18px;
+    line-height: 2;
+    padding: 0 10px 0 0;
+}
+
+.point-list__item{
+    list-style-type: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.point-list__icon{
+
+}
+
+.item-extension__button{
+    border: 1px solid #24466c;
+    min-height: 44px;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    line-height: 120%;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    color: #4798c9;
+    font-size: 18px;
+}
+
+

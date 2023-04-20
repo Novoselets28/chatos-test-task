@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page__extension {
+
+}
+
+.extension{
+    padding: 80px 0px 136px 0px;
+}
+
+.extension__container{
+    background-color: #edf0f5;
+}
+
+._container{
+    max-width: 1046px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+.extension__header{
+    margin: 0 0 80px 0;
+}
+
+.header-block{
+    text-align: center;
+}
+
+.header-block__title{
+    font-size: 42px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    line-height: 142%;
+    color: #363b3f;
+}
+
+.extension__items{
+    display: flex;
+    align-items: flex-start;
+    font-family: inherit;
+}
+
+.extension__item{
+    flex: 0 1 33.333%;
+}
+
+.item-extension{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.item-extension_active{
+    border: 2px solid #96d35f;
+    left: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.ribbon {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    overflow: hidden;
+}
+
+.ribbon span {
+    position: absolute;
+  top:30px;
+  right: 0;
+  transform: rotate(45deg);
+  width: 100px;
+  background: #ba24f0;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+
+.item-extension__title{
+    color: #373d42;
+}
+
+.item-extension__price{
+    color: #24466c;
+}
+
+.price-item{
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.price-item__dollar{
+    font-size: 16px;
+}
+
+.price-item__number{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.price-item__label{
+    color: #878d96;
+    font-size: 16px;
+}
+
+.item-extension__points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.item-extension__point{
+    color: inherit;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.point-list{
+
+}
+
+.point-list__item .icon{
+    content: "f058";
+    font-family: "Font Awesome 6 Free";
+    font-size: 12px;
+    line-height: 2;
+    padding: 0 10px 0 0;
+}
+
+.point-list__item{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.point-list__icon{
+
+}
+
+.item-extension__button{
+
+}
+
+

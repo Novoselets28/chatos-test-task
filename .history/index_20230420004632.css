@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.extension__container{
+    background-color: #edf0f5;
+}
+
+._container{
+    max-width: 1440px;
+    height: 100vh;
+    padding: 0 0.9375rem;
+    margin: 0 auto;
+    box-sizing: content-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+@media (max-width: 1024px){
+    ._container{
+        max-width: none;
+    }
+}
+
+.extension__header{
+    margin: 0 0 2.5rem 0;
+    padding: 1.875rem 0 0;
+}
+
+.header-block{
+    text-align: center;
+}
+
+.header-block__title{
+    font-size: 2.625rem;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    line-height: 142%;
+    color: #363b3f;
+}
+
+.extension__items{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1024px){
+    .extension__items{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .extension__items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+    }
+}
+
+.extension__item{
+    flex: 0 1 25%;
+}
+
+
+.item-extension{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.875rem 0;
+    border-radius: 0.625rem;
+}
+
+@media (max-width: 1024px){
+    .extension__item{
+        flex: 0 1 40%;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .extension__item{
+        flex: 0 1 44%;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    .extension__item{
+        flex: 0 1 80%;
+        margin: 15px;
+    }
+}
+
+.item-extension_active{
+    border: 2px solid #96d35f;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    padding: 3.125rem 0;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.item-extension_active .item-extension__button{
+    background-color: #96d35f;
+    border: none;
+}
+
+.ribbon {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    position: absolute;
+    top: -0.3125rem;
+    right: -0.3125rem;
+    overflow: hidden;
+}
+
+.ribbon span {
+    position: absolute;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    top: 1.25rem;
+    right: -1.125rem;
+    transform: rotate(45deg);
+    width: 6.25rem;
+    background: #eb0c0c;
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    box-shadow: 0 0.3125rem 0.625rem rgba(0,0,0,0.12);
+}
+
+.item-extension__title{
+    color: #373d42;
+    margin: 0 0 2.1875rem;
+}
+
+.item-extension__price{
+    color: #24466c;
+}
+
+.price-item{
+    margin: 0 0 1.5625rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+@media (max-width: 1024px){
+    .price-item{
+        font-size: 1rem;
+    }
+}
+
+.price-item__dollar{
+    font-size: 1rem;
+}
+
+.price-item__number{
+    text-transform: uppercase;
+    font-size: 5.25rem;
+}
+
+@media (max-width: 1024px){
+    .price-item__number{
+        font-size: 3.25rem;
+    }
+}
+
+.price-item__label{
+    color: #878d96;
+    font-size: 1rem;
+}
+
+.item-extension__points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.875rem;
+}
+
+@media (max-width: 1024px){
+    .item-extension__points{
+        margin: 0 0.875rem;
+    }
+}
+
+.item-extension__point{
+    color: inherit;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 0.625rem;
+}
+
+.point-list{
+
+}
+
+.point-list__item .icon{
+    content: "f058";
+    font-family: "Font Awesome 6 Free";
+    font-size: 1.125rem;
+    line-height: 2;
+    padding: 0 0.625rem 0 0;
+}
+
+.point-list__item{
+    list-style-type: none;
+    width: 100%;
+    padding: 0.625rem 0;
+}
+
+@media (max-width: 1024px){
+    .point-list__item{
+        padding: 0.125rem 0;
+    }
+}
+
+.item-extension__button{
+    border: 1px solid #24466c;
+    min-height: 2.75rem;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    line-height: 120%;
+    padding: 0.3125rem 1.25rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    width: 100%;
+    color: #4798c9;
+    font-size: 1.125rem;
+}
+
+
